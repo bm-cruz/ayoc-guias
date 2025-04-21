@@ -6,7 +6,7 @@ int main() {
 }
 
 /*
-para compilar con flags hacemos:
+para compilar con flags hacemos en una terminal en el directorio de hola_orga:
     gcc -Wall -Wextra -pedantic -c hola.c -o hola.o
     gcc -Wall -Wextra -pedantic hola.o -o hola
 */
