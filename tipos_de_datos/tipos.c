@@ -18,7 +18,7 @@ int main() {
     long double ld = 2.5;
     printf("float(%lu): %f \n", sizeof(f), f);
     printf("double(%lu): %lf \n", sizeof(d), d);  // %f = lf?
-    printf("long double(%lu): %Lf \n", sizeof(ld), ld);
+    printf("long double(%lu): %Lf \n", sizeof(ld), ld);  // ocupa 16 bytes?
 
     char ch = 'a';
     printf("char(%lu): %c \n", sizeof(ch), ch);
