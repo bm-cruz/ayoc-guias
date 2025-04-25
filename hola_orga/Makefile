@@ -4,10 +4,10 @@ TARGET = hola
 
 all: $(TARGET)
 
-$(TARGET): hola.o
+$(TARGET): $(TARGET).o
 	$(CC) $(CFLAGS) $^ -o $@
 
-hola.o: hola.c
+$(TARGET).o: $(TARGET).c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
