@@ -16,7 +16,7 @@ int main() {
     for (unsigned int i = 0; i < length; i++) {
         printf("%c", decoded[i]);
     }
-    printf("%lu \n", sizeof(mensaje_secreto));
+    return 0;
 }
 
 /*
