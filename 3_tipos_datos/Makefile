@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pedantic
-TARGET = tipos
+TARGET = main
 
 all: $(TARGET)
 
