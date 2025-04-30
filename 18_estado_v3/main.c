@@ -36,4 +36,8 @@ Si se le quita la palabra clave "static" a la variable cantidad, esta pasara de 
 esto significa que el tiempo durante el cual esta variable
 tendra un espacio de memoria asignado sera modificado,
 pasara de existir en todo el programa, a solo existir dentro de la funcion "alcoholizar"
+cuando termine la esta funcion, la variable "cantidad" dejara de existir
+Esto implica que cada vez que se llame a la funcion alcoholizar, se creara una variable nueva
+llamada "cantidad" que valdra 0, se le sumara 1, y el chequeo del if siempre ira por el primer caso,
+asignando a estado el valor FELIZ
 */
