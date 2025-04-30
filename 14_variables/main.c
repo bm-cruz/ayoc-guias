@@ -15,3 +15,5 @@ pues la variable global tiene "file scope" mientras que la local "block scope"
 y como estamos imprimiendo dentro de el bloque donde fue inicializada la variable local
 el scope actual es "block", por lo tanto el valor de var sera 24
 */
+
+// (?) DEFINICION DE "INICIALIZAR", COMPARACION CON DECLARAR Y DEFINIR
