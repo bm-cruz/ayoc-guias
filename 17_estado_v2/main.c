@@ -8,7 +8,7 @@ void ser_feliz();
 void print_estado();
 
 int main() {
-    print_estado();
+    print_estado();  // imprime "Estoy triste"
     ser_feliz();
     print_estado();  // imprime "Estoy feliz"
 }
